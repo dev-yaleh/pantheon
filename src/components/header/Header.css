@@ -1,0 +1,8 @@
+.header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+  padding:.6rem clamp(1rem,4vw,3rem);background:var(--color-surface-marble);border-bottom:1px solid rgba(0,240,255,.25)}
+.header__logo{height:clamp(34px,6vw,52px);width:auto}
+.header__bag{display:flex;align-items:center;gap:.6rem;background:transparent;color:var(--color-text-alabaster);
+  border:1px solid var(--color-accent-cyan);border-radius:999px;padding:.5rem 1rem;font-weight:600;cursor:pointer;transition:box-shadow .2s}
+.header__bag:hover{box-shadow:var(--glow-cyan)}
+.header__count{background:var(--color-highlight-nectar);color:var(--color-bg-obsidian);border-radius:999px;
+  min-width:1.6rem;padding:.1rem .45rem;font-family:var(--font-mono);font-size:.85rem;text-align:center}
