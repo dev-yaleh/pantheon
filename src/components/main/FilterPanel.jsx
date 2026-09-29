@@ -8,7 +8,9 @@ const ORDER = [['-added', 'Mais populares'], ['-metacritic', 'Melhor avaliados']
 export default function FilterPanel({ filters, onChange, onReset, onRoll, canRoll }) {
   return (
     <section className="filters" aria-label="Filtros">
-      <h1 className="filters__title">O que jogar hoje?</h1>
+      <p className="filters__eyebrow">✦ Acervo do Olimpo · sua próxima aventura começa aqui</p>
+      <h1 className="filters__title">O que jogar <span>hoje?</span></h1>
+      <p className="filters__intro">Explore mundos lendários, descubra sua próxima jornada e reúna seus favoritos no Alforje.</p>
       <input className="field" type="search" placeholder="Buscar jogo pelo nome" value={filters.search}
         onChange={(e) => onChange({ search: e.target.value })} aria-label="Buscar jogo" />
       <div className="filters__modes" role="group" aria-label="Modo de jogo">

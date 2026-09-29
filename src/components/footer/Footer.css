@@ -1,3 +1,2 @@
-.footer{margin-top:4rem;padding:2rem clamp(1rem,4vw,3rem);background:var(--color-surface-marble);
-  color:var(--color-text-muted);font-size:.9rem;display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-between}
-.footer a{color:var(--color-accent-cyan)}
+.footer { position: relative; margin-top: 4rem; padding: 2rem clamp(1rem,4vw,3.5rem); background: rgba(15,19,27,.78); border-top: 1px solid rgba(229,193,88,.2); color: var(--color-text-muted); font-size: .85rem; display: flex; flex-wrap: wrap; gap: .5rem 2rem; justify-content: space-between; }
+.footer a { color: var(--color-accent-cyan); text-underline-offset: 3px; }
