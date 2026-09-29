@@ -6,7 +6,7 @@ export default function Header({ count, onOpen }) {
     <header className="header">
       <img className="header__logo" src={logo} alt="Pantheon" />
       <button className="header__bag" onClick={onOpen} aria-label={`Abrir Alforje, ${count} jogos salvos`}>
-        <span>Alforje</span>
+        <span>Mochila</span>
         <span className="header__count">{count}</span>
       </button>
     </header>
